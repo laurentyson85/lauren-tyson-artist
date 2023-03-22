@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lauren-tyson-artist/static/css/main.073c9b0a.css",
-    "main.js": "/lauren-tyson-artist/static/js/main.d5645ddd.js",
+    "main.js": "/lauren-tyson-artist/static/js/main.502e7716.js",
     "static/js/787.a6fef3f5.chunk.js": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js",
     "static/media/logo.svg": "/lauren-tyson-artist/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lauren-tyson-artist/index.html",
     "main.073c9b0a.css.map": "/lauren-tyson-artist/static/css/main.073c9b0a.css.map",
-    "main.d5645ddd.js.map": "/lauren-tyson-artist/static/js/main.d5645ddd.js.map",
+    "main.502e7716.js.map": "/lauren-tyson-artist/static/js/main.502e7716.js.map",
     "787.a6fef3f5.chunk.js.map": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d5645ddd.js"
+    "static/js/main.502e7716.js"
   ]
 }
