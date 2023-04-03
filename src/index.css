@@ -14,9 +14,9 @@ body {
 
 nav a {
   display: inline-bock; 
-  margin: .5rem;
+  margin: 1rem;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1rem;
   color: #4B4A4A;
   transition: 0.1s;
   
@@ -40,5 +40,5 @@ nav a:hover {
 
 #footerImg {  
   width: 35px;
-  height: auto;
+  height: auto;  
 }

@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import Hats from "./Hats";
 import Paintings from "./Paintings";
 import Footer from "./Footer";
+import Bio from "./Bio";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
           <Route 
             path="paintings" 
             element={<Paintings />}
+          />
+          <Route 
+            path="bio" 
+            element={<Bio />}
           />
           <Route 
             path="/*" 
