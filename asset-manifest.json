@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/lauren-tyson-artist/static/css/main.481ed1ca.css",
-    "main.js": "/lauren-tyson-artist/static/js/main.cad31ca8.js",
+    "main.css": "/lauren-tyson-artist/static/css/main.3bda4067.css",
+    "main.js": "/lauren-tyson-artist/static/js/main.8bf80194.js",
     "static/js/787.a6fef3f5.chunk.js": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js",
-    "static/media/lta_header.png": "/lauren-tyson-artist/static/media/lta_header.d8b4e5739f2b68360f96.png",
+    "static/media/lta_homepage_design.png": "/lauren-tyson-artist/static/media/lta_homepage_design.90a099059bf65e843adf.png",
+    "static/media/Made_in_MT_Color_JPG_transparent.png": "/lauren-tyson-artist/static/media/Made_in_MT_Color_JPG_transparent.d10555fa0346580106e8.png",
+    "static/media/lta_logo.png": "/lauren-tyson-artist/static/media/lta_logo.17199137293524f7a5aa.png",
+    "static/media/Lauren Tyson Artist Instagram.png": "/lauren-tyson-artist/static/media/Lauren Tyson Artist Instagram.f0c161ca296dca5f6150.png",
     "index.html": "/lauren-tyson-artist/index.html",
-    "main.481ed1ca.css.map": "/lauren-tyson-artist/static/css/main.481ed1ca.css.map",
-    "main.cad31ca8.js.map": "/lauren-tyson-artist/static/js/main.cad31ca8.js.map",
+    "main.3bda4067.css.map": "/lauren-tyson-artist/static/css/main.3bda4067.css.map",
+    "main.8bf80194.js.map": "/lauren-tyson-artist/static/js/main.8bf80194.js.map",
     "787.a6fef3f5.chunk.js.map": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.481ed1ca.css",
-    "static/js/main.cad31ca8.js"
+    "static/css/main.3bda4067.css",
+    "static/js/main.8bf80194.js"
   ]
 }
