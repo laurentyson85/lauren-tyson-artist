@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lauren-tyson-artist/static/css/main.77106f92.css",
-    "main.js": "/lauren-tyson-artist/static/js/main.5ff476c0.js",
+    "main.js": "/lauren-tyson-artist/static/js/main.5203d023.js",
     "static/js/787.a6fef3f5.chunk.js": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js",
     "static/media/Trout Montana.jpg": "/lauren-tyson-artist/static/media/Trout Montana.5fa12a085200b4855ab0.jpg",
     "static/media/Rainbow.jpg": "/lauren-tyson-artist/static/media/Rainbow.e79cd09b2ddd490b7b44.jpg",
@@ -22,11 +22,11 @@
     "static/media/Lauren Tyson Artist Instagram.png": "/lauren-tyson-artist/static/media/Lauren Tyson Artist Instagram.f0c161ca296dca5f6150.png",
     "index.html": "/lauren-tyson-artist/index.html",
     "main.77106f92.css.map": "/lauren-tyson-artist/static/css/main.77106f92.css.map",
-    "main.5ff476c0.js.map": "/lauren-tyson-artist/static/js/main.5ff476c0.js.map",
+    "main.5203d023.js.map": "/lauren-tyson-artist/static/js/main.5203d023.js.map",
     "787.a6fef3f5.chunk.js.map": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77106f92.css",
-    "static/js/main.5ff476c0.js"
+    "static/js/main.5203d023.js"
   ]
 }
