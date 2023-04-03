@@ -87,7 +87,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImageSmall" src={war} alt="War Dance"/>,
+    link: <img class="printImage" src={war} alt="War Dance"/>,
     price: "$25.00",
     stock: "In stock"          
   }, {

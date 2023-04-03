@@ -70,13 +70,11 @@ nav a:hover {
 }
 
 .printImage {
-  width: 390px;
+  display: block;
+  width: 80%;
   height: auto;
-}
-
-.printImageSmall {
-  width: 200px;
-  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #footerImg {  
