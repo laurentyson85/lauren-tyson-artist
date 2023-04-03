@@ -3,6 +3,18 @@ import Print from "./Print";
 import NextButton from "./NextButton";
 import BackButton from "./BackButton";
 import thisIsMontana from "../images/prints/This is Montana.jpg"
+import baldEagle from "../images/prints/Bald Eagle Grey Day.jpg"
+import wild from "../images/prints/In the Wild.jpg"
+import indigenous from "../images/prints/Indigenous.jpg"
+import horizon from "../images/prints/On the Horizon.jpg"
+import wind from "../images/prints/Water and Wind.jpg"
+import OnRiver from "../images/prints/On the River.jpg"
+import rainbow from "../images/prints/Rainbow.jpg"
+import horse from "../images/prints/Riderless Horse.jpg"
+import sunsetTrout from "../images/prints/Sunset Trout.jpg"
+import troutMontana from "../images/prints/Trout Montana.jpg"
+import troutSkin from "../images/prints/Trout Skin.jpg"
+import war from "../images/prints/War Dance.jpg"
 
 
 function Paintings() {
@@ -23,7 +35,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
-    link: <img class="printImage" src="../images/prints/Indigenous.jpg" alt="Indigenous"/>,
+    link: <img class="printImage" src={indigenous} alt="Indigenous"/>,
     price: "$20.00",
     stock: "In stock"         
   }, {
@@ -32,7 +44,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImage" src="../images/prints/On the River.jpg" alt="On the River"/>,
+    link: <img class="printImage" src={OnRiver} alt="On the River"/>,
     price: "$25.00",
     stock: "In stock"         
   }, {
@@ -41,7 +53,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImage" src="../images/prints/In the Wild.jpg" alt="In the Wild"/>,
+    link: <img class="printImage" src={wild} alt="In the Wild"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -50,7 +62,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImage" src="../images/prints/Sunset Trout.jpg" alt="Sunset Trout"/>,
+    link: <img class="printImage" src={sunsetTrout} alt="Sunset Trout"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -59,7 +71,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img src="../images/prints/Trout Skin.jpg" alt="Trout Skin"/>,
+    link: <img class="printImage" src={troutSkin} alt="Trout Skin"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -68,7 +80,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img src="../images/prints/Rainbow.jpg" alt="Rainbow"/>,
+    link: <img class="printImage" src={rainbow} alt="Rainbow"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -77,7 +89,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img src="../images/prints/War Dance.jpg" alt="War Dance"/>,
+    link: <img class="printImage" src={war} alt="War Dance"/>,
     price: "$25.00",
     stock: "In stock"          
   }, {
@@ -86,7 +98,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
-    link: <img src="../images/prints/Water and Wind.jpg" alt="Water and Wind"/>,
+    link: <img class="printImage" src={wind} alt="Water and Wind"/>,
     price: "$20.00",
     stock: "In stock"           
   }, {
@@ -95,7 +107,7 @@ function Paintings() {
     type: "Art Print",
     description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "16x20",
-    link: <img src="../images/prints/Bald Eagle Grey Day.jpg" alt="Bald Eagle Grey Day"/>,
+    link: <img class="printImage" src={baldEagle} alt="Bald Eagle Grey Day"/>,
     price: "$35.00",
     stock: "In stock"           
   }, {
@@ -104,7 +116,7 @@ function Paintings() {
     type: "Art Print",
     description: "11 x 14 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "11x14",
-    link: <img src="../images/prints/Trout Montana.jpg" alt="Trout Montana"/>,
+    link: <img class="printImage" src={troutMontana} alt="Trout Montana"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -113,7 +125,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
-    link: <img src="../images/prints/Riderless Horse.jpg" alt="Riderless Horse"/>,
+    link: <img class="printImage" src={horse} alt="Riderless Horse"/>,
     price: "$20.00",
     stock: "In stock"           
   },
@@ -123,7 +135,7 @@ function Paintings() {
     type: "Art Print",
     description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "16x20",
-    link: <img src="../images/prints/On the Horizon.jpg" alt="On the Horizon"/>,
+    link: <img class="printImage" src={horizon} alt="On the Horizon"/>,
     price: "$35.00",
     stock: "In stock"           
   }
@@ -154,9 +166,13 @@ const allPrints = prints.slice(printPosition, printPosition + displayCount).map(
 
   return (
     <div className="belt">
-      <BackButton handleBack={handleBack} printPosition={printPosition}/>
-        {allPrints}
-      <NextButton handleNext={handleNext} printPosition={printPosition} prints={prints} />
+      <div className="buttons">
+        <BackButton handleBack={handleBack} printPosition={printPosition}/>
+      </div>      
+        {allPrints}      
+        <div className="buttons">
+        <NextButton handleNext={handleNext} printPosition={printPosition} prints={prints} />
+      </div>
     </div>
   );
 }
