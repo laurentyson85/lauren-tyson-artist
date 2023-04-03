@@ -60,6 +60,11 @@ nav a:hover {
   margin: auto;
 }
 
+.printImage {
+  width: 200px;
+  height: auto;
+}
+
 #footerImg {  
   width: 35px;
   height: auto;  

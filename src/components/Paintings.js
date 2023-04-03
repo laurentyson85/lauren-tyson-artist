@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Print from "./Print";
 import NextButton from "./NextButton";
 import BackButton from "./BackButton";
+import thisIsMontana from "../images/prints/This is Montana.jpg"
+
 
 function Paintings() {
   
@@ -12,7 +14,7 @@ function Paintings() {
       type: "Art Print",
       description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
       size: "16x20",
-      link: <img class="printImage" src="../images/prints/This is Montana.jpg" alt="this is montana"/>,
+      link: <img class="printImage" src={thisIsMontana} alt="this is montana"/>,
       price: "$35.00",
       stock: "In stock"          
   }, {
@@ -57,7 +59,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImage" src="../images/prints/Trout Skin.jpg" alt="Trout Skin"/>,
+    link: <img src="../images/prints/Trout Skin.jpg" alt="Trout Skin"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -66,7 +68,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImage" src="../images/prints/Rainbow.jpg" alt="Rainbow"/>,
+    link: <img src="../images/prints/Rainbow.jpg" alt="Rainbow"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -75,7 +77,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImage" src="../images/prints/War Dance.jpg" alt="War Dance"/>,
+    link: <img src="../images/prints/War Dance.jpg" alt="War Dance"/>,
     price: "$25.00",
     stock: "In stock"          
   }, {
@@ -84,7 +86,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
-    link: <img class="printImage" src="../images/prints/Water and Wind.jpg" alt="Water and Wind"/>,
+    link: <img src="../images/prints/Water and Wind.jpg" alt="Water and Wind"/>,
     price: "$20.00",
     stock: "In stock"           
   }, {
@@ -93,7 +95,7 @@ function Paintings() {
     type: "Art Print",
     description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "16x20",
-    link: <img class="printImage" src="../images/prints/Bald Eagle Grey Day.jpg" alt="Bald Eagle Grey Day"/>,
+    link: <img src="../images/prints/Bald Eagle Grey Day.jpg" alt="Bald Eagle Grey Day"/>,
     price: "$35.00",
     stock: "In stock"           
   }, {
@@ -102,7 +104,7 @@ function Paintings() {
     type: "Art Print",
     description: "11 x 14 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "11x14",
-    link: <img class="printImage" src="../images/prints/Trout Montana.jpg" alt="Trout Montana"/>,
+    link: <img src="../images/prints/Trout Montana.jpg" alt="Trout Montana"/>,
     price: "$25.00",
     stock: "In stock"           
   }, {
@@ -111,7 +113,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
-    link: <img class="printImage" src="../images/prints/Riderless Horse.jpg" alt="Riderless Horse"/>,
+    link: <img src="../images/prints/Riderless Horse.jpg" alt="Riderless Horse"/>,
     price: "$20.00",
     stock: "In stock"           
   },
@@ -121,7 +123,7 @@ function Paintings() {
     type: "Art Print",
     description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "16x20",
-    link: <img class="printImage" src="../images/prints/On the Horizon.jpg" alt="On the Horizon"/>,
+    link: <img src="../images/prints/On the Horizon.jpg" alt="On the Horizon"/>,
     price: "$35.00",
     stock: "In stock"           
   }
