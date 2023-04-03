@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import Print from "./Print";
-import NextButton from "./NextButton";
-import BackButton from "./BackButton";
 import thisIsMontana from "../images/prints/This is Montana.jpg"
 import baldEagle from "../images/prints/Bald Eagle Grey Day.jpg"
 import wild from "../images/prints/In the Wild.jpg"
@@ -141,24 +139,12 @@ function Paintings() {
   }
 ]
 
-const [printPosition, setPrintPosition] = useState(0)
-  const displayCount = 1    
 
-  function handleNext(){
-    setPrintPosition((printPosition + displayCount)% prints.length)
-  }
-
-  function handleBack(){
-    setPrintPosition((printPosition - displayCount)% prints.length)
-  }
-
-  // .slice(printPosition, printPosition + displayCount).
 const allPrints = prints.map(print => {
   return(
       <Print
       key={print.id}
       name={print.name}
-      description={print.description}
       size={print.size}
       link={print.link}
       price={print.price}
@@ -169,7 +155,7 @@ const allPrints = prints.map(print => {
   return (
     <>
       <div className="printText">
-        <p>Use the arrows to tab through my work.</p>
+        <p>All prints are produced on fine art print on smooth matte paper made from 100% cotton hot press paper</p>
         {/* <button onClick={() => window.location = 'mailto:laurentysonartist@gmail.com'}>laurentysonartist@gmail.com</button> */}
         <p>To purchase a print, please email me: laurentysonartist@gmail.com</p>
       </div>
@@ -181,13 +167,7 @@ const allPrints = prints.map(print => {
         }}
       />      
       <div className="cards">
-        {/* <div className="buttons">
-          <BackButton handleBack={handleBack} printPosition={printPosition}/> */}
-        {/* </div>       */}
-          {allPrints}      
-          {/* <div className="buttons">
-          <NextButton handleNext={handleNext} printPosition={printPosition} prints={prints} />
-        </div> */}
+          {allPrints}  
       </div>
     </>
   );
