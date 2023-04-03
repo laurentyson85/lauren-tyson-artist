@@ -1,5 +1,5 @@
 import React from "react";
-import headerImg from "../images/lta_header.png"
+import headerImg from "../images/lta_logo.png"
 
 function Header() {
   return (
