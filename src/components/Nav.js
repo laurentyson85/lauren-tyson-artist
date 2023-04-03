@@ -9,7 +9,7 @@ let activeStyle = {
 
 function Nav() {
   return (
-    <div className="navBar">
+    <div className="topnav">
         <nav>
         <NavLink
             to="/"
@@ -27,7 +27,7 @@ function Nav() {
               isActive ? activeStyle : undefined
             }
           >
-            All Jobs
+            Hats
           </NavLink>       
         <NavLink
             to="paintings"
@@ -35,7 +35,7 @@ function Nav() {
               isActive ? activeStyle : undefined
             }
           >
-            Hipster View
+            Paintings
           </NavLink>
         </nav>
     </div>
