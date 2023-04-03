@@ -1,8 +1,10 @@
-import React from "react";
-
+import React, { useState } from "react";
+import Print from "./Print";
+import NextButton from "./NextButton";
+import BackButton from "./BackButton";
 
 function Paintings() {
-
+  
   const prints = [
     {
       id: 1,
@@ -125,13 +127,34 @@ function Paintings() {
   }
 ]
 
-  const originals = [
-    
-  ]
+const [printPosition, setPrintPosition] = useState(0)
+  const displayCount = 1    
+
+  function handleNext(){
+    setPrintPosition((printPosition + displayCount)% prints.length)
+  }
+
+  function handleBack(){
+    setPrintPosition((printPosition - displayCount)% prints.length)
+  }
+const allPrints = prints.slice(printPosition, printPosition + displayCount).map(print => {
+  return(
+      <Print
+      key={print.id}
+      name={print.name}
+      description={print.description}
+      size={print.size}
+      link={print.link}
+      price={print.price}
+      />
+  )
+}) 
 
   return (
-    <div className="paintings">
-      Paintings
+    <div className="belt">
+      <BackButton handleBack={handleBack} printPosition={printPosition}/>
+        {allPrints}
+      <NextButton handleNext={handleNext} printPosition={printPosition} prints={prints} />
     </div>
   );
 }
