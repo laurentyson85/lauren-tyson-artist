@@ -1,19 +1,32 @@
 {
   "files": {
-    "main.css": "/lauren-tyson-artist/static/css/main.3bda4067.css",
-    "main.js": "/lauren-tyson-artist/static/js/main.8bf80194.js",
+    "main.css": "/lauren-tyson-artist/static/css/main.e1708a0d.css",
+    "main.js": "/lauren-tyson-artist/static/js/main.e8e3446b.js",
     "static/js/787.a6fef3f5.chunk.js": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js",
+    "static/media/Trout Montana.jpg": "/lauren-tyson-artist/static/media/Trout Montana.5fa12a085200b4855ab0.jpg",
+    "static/media/Rainbow.jpg": "/lauren-tyson-artist/static/media/Rainbow.e79cd09b2ddd490b7b44.jpg",
+    "static/media/Trout Skin.jpg": "/lauren-tyson-artist/static/media/Trout Skin.bd571d9fbf0b7efc8757.jpg",
+    "static/media/Bald Eagle Grey Day.jpg": "/lauren-tyson-artist/static/media/Bald Eagle Grey Day.f03d603ed49d25636399.jpg",
+    "static/media/War Dance.jpeg": "/lauren-tyson-artist/static/media/War Dance.927d9888d15500acfc43.jpeg",
+    "static/media/Sunset Trout.jpg": "/lauren-tyson-artist/static/media/Sunset Trout.97db8b1667c40eeed40e.jpg",
+    "static/media/Water and Wind.jpg": "/lauren-tyson-artist/static/media/Water and Wind.9ed3df3a1446e4eb47a9.jpg",
+    "static/media/On the Horizon.jpg": "/lauren-tyson-artist/static/media/On the Horizon.df599b6b8caa001f50d6.jpg",
+    "static/media/This is Montana.jpg": "/lauren-tyson-artist/static/media/This is Montana.c4ac380ab5c2de710bac.jpg",
+    "static/media/On the River.jpg": "/lauren-tyson-artist/static/media/On the River.3d8b92df60b228a7e9a5.jpg",
+    "static/media/In the Wild.jpg": "/lauren-tyson-artist/static/media/In the Wild.c860469da1277dc93247.jpg",
     "static/media/lta_homepage_design.png": "/lauren-tyson-artist/static/media/lta_homepage_design.90a099059bf65e843adf.png",
+    "static/media/Riderless Horse.jpg": "/lauren-tyson-artist/static/media/Riderless Horse.840edeb8100b7a9fd149.jpg",
+    "static/media/Indigenous.jpg": "/lauren-tyson-artist/static/media/Indigenous.39f0a87788a7505d7245.jpg",
     "static/media/Made_in_MT_Color_JPG_transparent.png": "/lauren-tyson-artist/static/media/Made_in_MT_Color_JPG_transparent.d10555fa0346580106e8.png",
     "static/media/lta_logo.png": "/lauren-tyson-artist/static/media/lta_logo.17199137293524f7a5aa.png",
     "static/media/Lauren Tyson Artist Instagram.png": "/lauren-tyson-artist/static/media/Lauren Tyson Artist Instagram.f0c161ca296dca5f6150.png",
     "index.html": "/lauren-tyson-artist/index.html",
-    "main.3bda4067.css.map": "/lauren-tyson-artist/static/css/main.3bda4067.css.map",
-    "main.8bf80194.js.map": "/lauren-tyson-artist/static/js/main.8bf80194.js.map",
+    "main.e1708a0d.css.map": "/lauren-tyson-artist/static/css/main.e1708a0d.css.map",
+    "main.e8e3446b.js.map": "/lauren-tyson-artist/static/js/main.e8e3446b.js.map",
     "787.a6fef3f5.chunk.js.map": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bda4067.css",
-    "static/js/main.8bf80194.js"
+    "static/css/main.e1708a0d.css",
+    "static/js/main.e8e3446b.js"
   ]
 }
