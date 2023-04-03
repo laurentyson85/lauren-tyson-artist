@@ -52,6 +52,12 @@ nav a:hover {
   text-align: center;   
 }
 
+.printListing {
+    text-align: center;
+    width:100%;
+    height: auto;
+}
+
 .footer {  
   display: block;
   left:0px;
@@ -85,14 +91,7 @@ nav a:hover {
   height: auto;  
 }
 
-.belt {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  grid-area: bt;
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-}
+
 
 .navigateButtons {
   height: 100px;

@@ -45,7 +45,7 @@ function Nav() {
               isActive ? activeStyle : undefined
             }                        
           >
-            Artist Bio
+            Bio
           </NavLink>
         </nav>
     </div>

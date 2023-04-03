@@ -15,7 +15,6 @@ import sunsetTrout from "../images/prints/Sunset Trout.jpg"
 import troutMontana from "../images/prints/Trout Montana.jpg"
 import troutSkin from "../images/prints/Trout Skin.jpg"
 import war from "../images/prints/War Dance.jpeg"
-import ButtonMailto from "./ButtonMailto";
 
 
 function Paintings() {
@@ -152,7 +151,9 @@ const [printPosition, setPrintPosition] = useState(0)
   function handleBack(){
     setPrintPosition((printPosition - displayCount)% prints.length)
   }
-const allPrints = prints.slice(printPosition, printPosition + displayCount).map(print => {
+
+  // .slice(printPosition, printPosition + displayCount).
+const allPrints = prints.map(print => {
   return(
       <Print
       key={print.id}
@@ -170,7 +171,7 @@ const allPrints = prints.slice(printPosition, printPosition + displayCount).map(
       <div className="printText">
         <p>Use the arrows to tab through my work.</p>
         {/* <button onClick={() => window.location = 'mailto:laurentysonartist@gmail.com'}>laurentysonartist@gmail.com</button> */}
-        <p>To purchase a print, please email me: <ButtonMailto label="laurentysonartist@gmail.com" mailto="laurentysonartist@gmail.com" /></p>
+        <p>To purchase a print, please email me: laurentysonartist@gmail.com</p>
       </div>
       <hr
         style={{
@@ -179,14 +180,14 @@ const allPrints = prints.slice(printPosition, printPosition + displayCount).map(
           height: '.5px',
         }}
       />      
-      <div className="belt">
-        <div className="buttons">
-          <BackButton handleBack={handleBack} printPosition={printPosition}/>
-        </div>      
+      <div className="cards">
+        {/* <div className="buttons">
+          <BackButton handleBack={handleBack} printPosition={printPosition}/> */}
+        {/* </div>       */}
           {allPrints}      
-          <div className="buttons">
+          {/* <div className="buttons">
           <NextButton handleNext={handleNext} printPosition={printPosition} prints={prints} />
-        </div>
+        </div> */}
       </div>
     </>
   );
