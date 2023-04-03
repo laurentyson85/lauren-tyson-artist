@@ -10,7 +10,7 @@ function Home() {
       <img id="homeImg" src={homeImg} alt="homeImg"/>
       <div className="homeText">
         <p>Welcome! Use the navigation at the top to check out my work.</p>
-        <p>To contact me for orders, commissions, or anything else, please email 👉 laurentysonartist@gmail.com</p>
+        <p>To contact me for orders, commissions, or anything else, please email 👉 laurentysonartist@gmail.com</p>        
         <p>Follow me on Instagram 👇 🥳 </p><Link to="https://www.instagram.com/lauren_tyson_artist/" target="_blank" rel="noreferrer"><img id="ig" src={ig} alt="ig"></img></Link>
       </div>
     </div>

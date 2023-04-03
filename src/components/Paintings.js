@@ -14,7 +14,8 @@ import horse from "../images/prints/Riderless Horse.jpg"
 import sunsetTrout from "../images/prints/Sunset Trout.jpg"
 import troutMontana from "../images/prints/Trout Montana.jpg"
 import troutSkin from "../images/prints/Trout Skin.jpg"
-import war from "../images/prints/War Dance.jpg"
+import war from "../images/prints/War Dance.jpeg"
+import ButtonMailto from "./ButtonMailto";
 
 
 function Paintings() {
@@ -28,7 +29,7 @@ function Paintings() {
       size: "16x20",
       link: <img class="printImage" src={thisIsMontana} alt="this is montana"/>,
       price: "$35.00",
-      stock: "In stock"          
+      stock: "In stock"  
   }, {
     id: 2,
     name: "Indigenous",
@@ -89,7 +90,7 @@ function Paintings() {
     type: "Art Print",
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
-    link: <img class="printImage" src={war} alt="War Dance"/>,
+    link: <img class="printImageSmall" src={war} alt="War Dance"/>,
     price: "$25.00",
     stock: "In stock"          
   }, {
@@ -165,15 +166,29 @@ const allPrints = prints.slice(printPosition, printPosition + displayCount).map(
 }) 
 
   return (
-    <div className="belt">
-      <div className="buttons">
-        <BackButton handleBack={handleBack} printPosition={printPosition}/>
-      </div>      
-        {allPrints}      
-        <div className="buttons">
-        <NextButton handleNext={handleNext} printPosition={printPosition} prints={prints} />
+    <>
+      <div className="printText">
+        <p>Use the arrows to tab through my work.</p>
+        {/* <button onClick={() => window.location = 'mailto:laurentysonartist@gmail.com'}>laurentysonartist@gmail.com</button> */}
+        <p>To purchase a print, please email me: <ButtonMailto label="laurentysonartist@gmail.com" mailto="laurentysonartist@gmail.com" /></p>
       </div>
-    </div>
+      <hr
+        style={{
+          background: '#116600',
+          color: '#116600',
+          height: '.5px',
+        }}
+      />      
+      <div className="belt">
+        <div className="buttons">
+          <BackButton handleBack={handleBack} printPosition={printPosition}/>
+        </div>      
+          {allPrints}      
+          <div className="buttons">
+          <NextButton handleNext={handleNext} printPosition={printPosition} prints={prints} />
+        </div>
+      </div>
+    </>
   );
 }
 
