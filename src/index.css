@@ -12,6 +12,26 @@ body {
   margin: 1.5rem;
 }
 
+.home {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#homeImg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeText {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;  
+}
+
 nav a {
   display: inline-bock; 
   margin: 1rem;
@@ -27,8 +47,8 @@ nav a:hover {
 }
 
 
-.footer {
-  position:fixed;
+.footer {  
+  display: block;
   left:0px;
   bottom:0px;
   height:150px;
@@ -36,9 +56,16 @@ nav a:hover {
   background:#737373;
   color: white;
   text-align: center;
+  padding: 5px;
+  margin: auto;
 }
 
 #footerImg {  
   width: 35px;
+  height: auto;  
+}
+
+#ig {  
+  width: 50px;
   height: auto;  
 }
