@@ -5,6 +5,7 @@ import Home from "./Home";
 import Nav from "./Nav";
 import Hats from "./Hats";
 import Paintings from "./Paintings";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             element={<Home />}
           />
         </Routes>
+        <Footer />
       </div>
   );
 }

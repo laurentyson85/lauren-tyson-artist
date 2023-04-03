@@ -14,7 +14,7 @@ body {
 
 nav a {
   display: inline-bock; 
-  margin: 2rem;
+  margin: .5rem;
   text-decoration: none;
   font-size: 1em;
   color: #4B4A4A;
@@ -23,5 +23,22 @@ nav a {
 }
 
 nav a:hover {  
-  border-bottom: 2px solid #a3a5a2;;  
+  border-bottom: 2px solid #737373;;  
+}
+
+
+.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:150px;
+  width:100%;
+  background:#737373;
+  color: white;
+  text-align: center;
+}
+
+#footerImg {  
+  width: 35px;
+  height: auto;
 }

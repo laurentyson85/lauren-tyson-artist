@@ -37,16 +37,7 @@ function Nav() {
             }                        
           >
             Paintings
-          </NavLink>
-        <NavLink
-            to="commission"
-            end
-            style={({ isActive }) =>
-              isActive ? activeStyle : undefined
-            }                        
-          >
-            Commission Me
-          </NavLink>
+          </NavLink>        
         <NavLink
             to="bio"
             end
@@ -55,15 +46,6 @@ function Nav() {
             }                        
           >
             Artist Bio
-          </NavLink>
-        <NavLink
-            to="faqs"
-            end
-            style={({ isActive }) =>
-              isActive ? activeStyle : undefined
-            }                        
-          >
-            FAQs
           </NavLink>
         </nav>
     </div>
