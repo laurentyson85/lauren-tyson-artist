@@ -43,19 +43,7 @@ nav a:hover {
 .homeText {
   margin-top: 3rem;
   text-align: center;
-  font-size: larger;
   font-weight: bolder;    
-}
-
-.printText {
-  margin-top: 3rem;
-  text-align: center;   
-}
-
-.printListing {
-    text-align: center;
-    width:100%;
-    height: auto;
 }
 
 .footer {    
@@ -69,14 +57,6 @@ nav a:hover {
   padding: 5px;
 }
 
-.printImage {
-  display: block;
-  width: 75%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #footerImg {  
   width: 35px;
   height: auto;  
@@ -87,9 +67,28 @@ nav a:hover {
   height: auto;  
 }
 
+.printText {
+  margin-top: 3rem;
+  text-align: center;   
+}
+
+.printListing {
+    text-align: center;
+    width:100%;
+    height: auto;
+}
+
+.printImage {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #headshotImg {
   display: block;
-  width: 35%;
+  width: 40%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -104,8 +103,8 @@ nav a:hover {
 .bio {
   margin-top: 3rem;  
   margin-bottom: 3rem;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hatCards {

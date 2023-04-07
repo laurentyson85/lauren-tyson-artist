@@ -8,7 +8,6 @@ function Hat({name, link, price}) {
         {link}
         <p>"{name}"</p>
         <p><span style={{fontWeight: "bold"}}>Price: </span>{price}</p>
-        <br></br>
       </div>    
     );
 }

@@ -119,8 +119,8 @@ const allHats = hats.map(hat => {
   return (
     <>
       <div className="printText">
-        <p>Structured snapback trucker style fishing hat. Treated with an odorless fabric protector. Acrylic paint. 100% Polyester</p>
-        <p>To purchase an original hat, please email me: laurentysonartist@gmail.com</p>
+        <p>Structured snapback trucker style fishing hats. Treated with an odorless fabric protector. Acrylic paint. 100% Polyester</p>
+        <p>To purchase a hat, please email me: laurentysonartist@gmail.com</p>
       </div>
       <hr
         style={{
