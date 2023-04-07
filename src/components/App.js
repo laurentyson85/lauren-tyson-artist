@@ -4,7 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Nav from "./Nav";
 import Hats from "./Hats";
-import Paintings from "./Paintings";
+import PrintPaintings from "./PrintPaintings";
 import Footer from "./Footer";
 import Bio from "./Bio";
 
@@ -19,8 +19,8 @@ function App() {
             element={<Hats />}
           />
           <Route 
-            path="paintings" 
-            element={<Paintings />}
+            path="prints" 
+            element={<PrintPaintings />}
           />
           <Route 
             path="bio" 

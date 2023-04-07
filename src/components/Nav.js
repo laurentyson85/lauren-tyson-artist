@@ -30,13 +30,13 @@ function Nav() {
             Hats
           </NavLink>       
         <NavLink
-            to="paintings"
+            to="prints"
             end
             style={({ isActive }) =>
               isActive ? activeStyle : undefined
             }                        
           >
-            Paintings
+            Prints
           </NavLink>        
         <NavLink
             to="bio"

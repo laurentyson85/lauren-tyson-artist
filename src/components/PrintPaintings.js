@@ -15,7 +15,7 @@ import troutSkin from "../images/prints/Trout Skin.jpg"
 import war from "../images/prints/War Dance.jpeg"
 
 
-function Paintings() {
+function PrintPaintings() {
   
   const prints = [
     {
@@ -173,4 +173,4 @@ const allPrints = prints.map(print => {
   );
 }
 
-export default Paintings;
+export default PrintPaintings;
