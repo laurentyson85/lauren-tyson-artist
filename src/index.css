@@ -45,18 +45,20 @@ nav a:hover {
   font-weight: bolder;    
 }
 
-.footer {    
-  left:0px;
-  bottom:0px;
-  text-align: center;
-  width:100%;
-  height: auto;
+.footer { 
+  bottom:0px;  
   background:#737373;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   color: white;
-  padding: 5px;
 }
 
 #footerImg {  
+  margin-top: .5rem;
   width: 35px;
   height: auto;  
 }
