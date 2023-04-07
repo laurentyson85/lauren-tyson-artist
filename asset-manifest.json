@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lauren-tyson-artist/static/css/main.d0960e0d.css",
-    "main.js": "/lauren-tyson-artist/static/js/main.7a4820a9.js",
+    "main.css": "/lauren-tyson-artist/static/css/main.8e38db2d.css",
+    "main.js": "/lauren-tyson-artist/static/js/main.a3e2d68b.js",
     "static/js/787.a6fef3f5.chunk.js": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js",
     "static/media/Trout Montana.jpg": "/lauren-tyson-artist/static/media/Trout Montana.5fa12a085200b4855ab0.jpg",
     "static/media/Rainbow.jpg": "/lauren-tyson-artist/static/media/Rainbow.e79cd09b2ddd490b7b44.jpg",
@@ -31,15 +31,15 @@
     "static/media/gone_fishin.jpg": "/lauren-tyson-artist/static/media/gone_fishin.9b0ddead29272c14bda3.jpg",
     "static/media/comin_up_for_air.jpeg": "/lauren-tyson-artist/static/media/comin_up_for_air.52bb51ab08daea34639f.jpeg",
     "static/media/Made_in_MT_Color_JPG_transparent.png": "/lauren-tyson-artist/static/media/Made_in_MT_Color_JPG_transparent.d10555fa0346580106e8.png",
-    "static/media/lta_logo.png": "/lauren-tyson-artist/static/media/lta_logo.17199137293524f7a5aa.png",
+    "static/media/lta_logo.png": "/lauren-tyson-artist/static/media/lta_logo.a1560c63bd2bd22821f7.png",
     "static/media/Lauren Tyson Artist Instagram.png": "/lauren-tyson-artist/static/media/Lauren Tyson Artist Instagram.f0c161ca296dca5f6150.png",
     "index.html": "/lauren-tyson-artist/index.html",
-    "main.d0960e0d.css.map": "/lauren-tyson-artist/static/css/main.d0960e0d.css.map",
-    "main.7a4820a9.js.map": "/lauren-tyson-artist/static/js/main.7a4820a9.js.map",
+    "main.8e38db2d.css.map": "/lauren-tyson-artist/static/css/main.8e38db2d.css.map",
+    "main.a3e2d68b.js.map": "/lauren-tyson-artist/static/js/main.a3e2d68b.js.map",
     "787.a6fef3f5.chunk.js.map": "/lauren-tyson-artist/static/js/787.a6fef3f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0960e0d.css",
-    "static/js/main.7a4820a9.js"
+    "static/css/main.8e38db2d.css",
+    "static/js/main.a3e2d68b.js"
   ]
 }
