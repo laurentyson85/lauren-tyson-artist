@@ -155,9 +155,9 @@ const allPrints = prints.map(print => {
   return (
     <>
       <div className="printText">
-        <p>All prints are produced on fine art print on smooth matte paper made from 100% cotton hot press paper</p>
+        <p>All fine art prints are produced on smooth matte paper made from 100% cotton hot press paper</p>
         {/* <button onClick={() => window.location = 'mailto:laurentysonartist@gmail.com'}>laurentysonartist@gmail.com</button> */}
-        <p>To purchase a print, please email me: laurentysonartist@gmail.com</p>
+        <p>To purchase a print, please email me 👉 laurentysonartist@gmail.com</p>
       </div>
       <hr
         style={{

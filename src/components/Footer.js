@@ -5,8 +5,9 @@ function Footer() {
   return (
     <div className="footer">
       <p>Lauren Tyson, Artist <img id="footerImg" src={footerImg} alt="footerImg"/></p>
+      <p>A registered Made in Montana business</p>
       <p>laurentysonartist@gmail.com</p> 
-      <p>©2023 by Lauren Tyson. A registered Made in Montana business</p>
+      <p>©2023 by Lauren Tyson</p>
       <br></br>      
     </div>
   );
