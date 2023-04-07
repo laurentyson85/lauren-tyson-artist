@@ -3,13 +3,11 @@ import React from "react";
 function Hat({name, link, price}) {
 
     return (
-      <div className="printListing">
+      <div className="hatListing">
         <br></br>
         {link}
-        <p><span style={{fontWeight: "bold"}}>Name: </span>{name}</p>
+        <p>"{name}"</p>
         <p><span style={{fontWeight: "bold"}}>Price: </span>{price}</p>
-        <br></br>
-        <p>⏤</p>
         <br></br>
       </div>    
     );
