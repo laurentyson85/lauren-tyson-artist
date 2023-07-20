@@ -1,7 +1,7 @@
 {
   "name": "lauren-tyson-artist",
   "version": "0.1.0",
-  "homepage": "https://www.laurentysonartist.com/",
+  "homepage": "https://www.laurentysonartist.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
