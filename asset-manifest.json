@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e38db2d.css",
-    "main.js": "/static/js/main.9d1271a7.js",
+    "main.css": "/static/css/main.462313b6.css",
+    "main.js": "/static/js/main.5448ed3d.js",
     "static/js/787.a6fef3f5.chunk.js": "/static/js/787.a6fef3f5.chunk.js",
     "static/media/Trout Montana.jpg": "/static/media/Trout Montana.5fa12a085200b4855ab0.jpg",
     "static/media/Rainbow.jpg": "/static/media/Rainbow.e79cd09b2ddd490b7b44.jpg",
@@ -32,14 +32,13 @@
     "static/media/comin_up_for_air.jpeg": "/static/media/comin_up_for_air.52bb51ab08daea34639f.jpeg",
     "static/media/Made_in_MT_Color_JPG_transparent.png": "/static/media/Made_in_MT_Color_JPG_transparent.d10555fa0346580106e8.png",
     "static/media/lta_logo.png": "/static/media/lta_logo.a1560c63bd2bd22821f7.png",
-    "static/media/Lauren Tyson Artist Instagram.png": "/static/media/Lauren Tyson Artist Instagram.f0c161ca296dca5f6150.png",
     "index.html": "/index.html",
-    "main.8e38db2d.css.map": "/static/css/main.8e38db2d.css.map",
-    "main.9d1271a7.js.map": "/static/js/main.9d1271a7.js.map",
+    "main.462313b6.css.map": "/static/css/main.462313b6.css.map",
+    "main.5448ed3d.js.map": "/static/js/main.5448ed3d.js.map",
     "787.a6fef3f5.chunk.js.map": "/static/js/787.a6fef3f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e38db2d.css",
-    "static/js/main.9d1271a7.js"
+    "static/css/main.462313b6.css",
+    "static/js/main.5448ed3d.js"
   ]
 }
