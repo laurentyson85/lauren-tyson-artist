@@ -25,7 +25,7 @@ function PrintPaintings() {
       description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
       size: "16x20",
       link: <img class="printImage" src={thisIsMontana} alt="this is montana"/>,
-      price: "$35.00",
+      price: "$50.00",
       stock: "In stock"  
   }, {
     id: 2,
@@ -34,7 +34,7 @@ function PrintPaintings() {
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
     link: <img class="printImage" src={indigenous} alt="Indigenous"/>,
-    price: "$20.00",
+    price: "$50.00",
     stock: "In stock"         
   }, {
     id: 3,
@@ -43,7 +43,7 @@ function PrintPaintings() {
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
     link: <img class="printImage" src={OnRiver} alt="On the River"/>,
-    price: "$25.00",
+    price: "$50.00",
     stock: "In stock"         
   }, {
     id: 4,
@@ -52,7 +52,7 @@ function PrintPaintings() {
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
     link: <img class="printImage" src={wild} alt="In the Wild"/>,
-    price: "$25.00",
+    price: "$50.00",
     stock: "In stock"           
   }, {
     id: 5,
@@ -61,7 +61,7 @@ function PrintPaintings() {
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
     link: <img class="printImage" src={sunsetTrout} alt="Sunset Trout"/>,
-    price: "$25.00",
+    price: "$50.00",
     stock: "In stock"           
   }, {
     id: 6,
@@ -70,7 +70,7 @@ function PrintPaintings() {
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
     link: <img class="printImage" src={troutSkin} alt="Trout Skin"/>,
-    price: "$25.00",
+    price: "$50.00",
     stock: "In stock"           
   }, {
     id: 7,
@@ -79,7 +79,7 @@ function PrintPaintings() {
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
     link: <img class="printImage" src={rainbow} alt="Rainbow"/>,
-    price: "$25.00",
+    price: "$50.00",
     stock: "In stock"           
   }, {
     id: 8,
@@ -88,7 +88,7 @@ function PrintPaintings() {
     description: "10 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x20",
     link: <img class="printImage" src={war} alt="War Dance"/>,
-    price: "$25.00",
+    price: "$50.00",
     stock: "In stock"          
   }, {
     id: 9,
@@ -97,7 +97,7 @@ function PrintPaintings() {
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
     link: <img class="printImage" src={wind} alt="Water and Wind"/>,
-    price: "$20.00",
+    price: "$50.00",
     stock: "In stock"           
   }, {
     id: 10,
@@ -106,7 +106,7 @@ function PrintPaintings() {
     description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "16x20",
     link: <img class="printImage" src={baldEagle} alt="Bald Eagle Grey Day"/>,
-    price: "$35.00",
+    price: "$50.00",
     stock: "In stock"           
   }, {
     id: 11,
@@ -115,7 +115,7 @@ function PrintPaintings() {
     description: "11 x 14 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "11x14",
     link: <img class="printImage" src={troutMontana} alt="Trout Montana"/>,
-    price: "$25.00",
+    price: "$50.00",
     stock: "In stock"           
   }, {
     id: 12,
@@ -124,7 +124,7 @@ function PrintPaintings() {
     description: "10 x 10 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "10x10",
     link: <img class="printImage" src={horse} alt="Riderless Horse"/>,
-    price: "$20.00",
+    price: "$50.00",
     stock: "In stock"           
   },
   {
@@ -134,7 +134,7 @@ function PrintPaintings() {
     description: "16 x 20 fine art print on smooth matte paper made from 100% cotton hot press paper.",
     size: "16x20",
     link: <img class="printImage" src={horizon} alt="On the Horizon"/>,
-    price: "$35.00",
+    price: "$50.00",
     stock: "In stock"           
   }
 ]
@@ -155,6 +155,9 @@ const allPrints = prints.map(print => {
   return (
     <>
       <div className="printText">
+        <p>Below are available <span className="italic">prints</span> of my original artwork.</p>
+        <p>If you're instead interested in purchasing the framed, ready-to-hang original painting, please email me.</p>
+        <br></br>
         <p>All fine art prints are produced on smooth matte paper made from 100% cotton hot press paper</p>
         {/* <button onClick={() => window.location = 'mailto:laurentysonartist@gmail.com'}>laurentysonartist@gmail.com</button> */}
         <p>To purchase a print, please email me 👉 laurentysonartist@gmail.com</p>

@@ -30,6 +30,9 @@ nav a:hover {
   font-weight: bolder;
   color: blue;
 } 
+.italic {
+  font-style: italic;
+}
 
 .home {
   margin-top: 3rem;
