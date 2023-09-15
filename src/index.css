@@ -78,6 +78,7 @@ nav a:hover {
 
 .hatCards {
   list-style: none;
+  justify-content: center;
 }
 
 .hatListing {
@@ -107,13 +108,13 @@ nav a:hover {
 
 @media (min-width: 1200px) {
   .hatListing {
-    width: calc(20% - 2rem);
+    width: calc(25% - 2rem);
   }
 }
 
 .hatImage {  
   justify-self: center;
-  height: 18rem;
+  height: 25rem;
   width: auto;
   -moz-box-shadow:0px 0px 7px grey;
   -webkit-box-shadow:0px 0px 7px grey;
@@ -129,20 +130,20 @@ nav a:hover {
 }
 
 .printListing {
-    text-align: center;
-    width:100%;
-    height: auto;
+  text-align: center;
+  width:100%;
+  height: auto;
 }
 
 .printImage {
   display: block;
-  width: 25%;
+  width: 30%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .printImage {
     width: 85%;
   }
