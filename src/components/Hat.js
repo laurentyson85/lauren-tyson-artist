@@ -7,7 +7,7 @@ function Hat({name, link, price}) {
         <br></br>
         {link}
         <p>"{name}"</p>
-        <p><span style={{fontWeight: "bold"}}>Price: </span>{price}</p>
+        <p><span className="bold">Price: </span>{price}</p>
       </div>    
     );
 }

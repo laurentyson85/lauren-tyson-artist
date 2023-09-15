@@ -22,84 +22,84 @@ function Hats() {
       name: "Angler's Choice",
       type: "Original Hand Painted Hat",
       link: <img class="hatImage" src={anglers_choice} alt="Angler's Choice"/>,
-      price: "$45.00",
+      price: "$75.00",
       stock: "In stock"  
   }, {
     id: 2,
     name: "Brook Trout Fish Skin",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={brook_trout_fish_skin} alt="Brook Trout Fish Skin"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"         
   }, {
     id: 3,
     name: "Comin' Up For Air",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={comin_up_for_air} alt="Comin' Up For Air"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"         
   }, {
     id: 4,
     name: "Cutthroat Trout Skin Hat",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={cutthroat_trout_skin_hat} alt="Cutthroat Trout Skin Hat"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }, {
     id: 5,
     name: "Gone Fishin",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={gone_fishin} alt="Gone Fishin"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }, {
     id: 6,
     name: "Ice Cold Fishing",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={ice_cold_fishing} alt="Ice Cold Fishing"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }, {
     id: 7,
     name: "Montana Brown",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={montana_brown} alt="Montana Brown"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }, {
     id: 8,
     name: "Montana Flies",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={montana_flies} alt="Montana Flies"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"          
   }, {
     id: 9,
     name: "Montana Westslope",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={montana_westslope} alt="Montana Westslope"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }, {
     id: 10,
     name: "Rainbow Trout Skin Hat",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={rainbow_trout_skin_hat} alt="Rainbow Trout Skin Hat"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }, {
     id: 11,
     name: "Royal PMX",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={royal_pmx} alt="Royal PMX"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }, {
     id: 12,
     name: "Trout and Stripes Forever",
     type: "Original Hand Painted Hat",
     link: <img class="hatImage" src={trout_and_stripes_forever} alt="Trout and Stripes Forever"/>,
-    price: "$45.00",
+    price: "$75.00",
     stock: "In stock"           
   }
 ]
